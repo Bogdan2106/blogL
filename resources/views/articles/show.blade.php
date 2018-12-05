@@ -7,6 +7,9 @@
 <body>
 
 <h1> {{ $article->title }}</h1>
+
+<p><i> {{ $article->description }}</i></p>
+<p> {{ $article->content }}</p>
     {{--<ul>--}}
             {{--<li> {{ $article->title }}</li>--}}
     {{--</ul>--}}

@@ -1,6 +1,6 @@
 <?php
 
-namespace Blog;
+namespace App;
 
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Foundation\Auth\User as Authenticatable;
@@ -8,6 +8,10 @@ use Illuminate\Foundation\Auth\User as Authenticatable;
 class User extends Authenticatable
 {
     use Notifiable;
+
+    const ROLE_ADMIN = 7;
+    const ROLE_MODER = 5;
+    const ROLE_USER = 3;
 
     /**
      * The attributes that are mass assignable.

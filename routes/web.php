@@ -16,21 +16,21 @@ Route::get('/articles/{article}', 'ArticlesController@show');
 
 //Route::get('/articles', function () {
 ////    $articles = DB::table('articles')->get();
-// //   $articles = Blog\Article::active();
-//    $articles = Blog\Article::all();
+// //   $articles = App\Article::active();
+//    $articles = App\Article::all();
 //    return view ('articles.index', compact('articles'));
 //});
 //
 //Route::get('/articles/{article}', function ($id) {
 // //   $article = DB::table('articles')->find($id);
-//      $article = Blog\Article::find($id);
+//      $article = App\Article::find($id);
 //    return view ('articles.show', compact('article'));
 //});
 
-//      $article = Blog\Article::find($id);
+//      $article = App\Article::find($id);
 //    return view ('articles.show', compact('article'));
 
-//      $article = Blog\Article::find($id);
+//      $article = App\Article::find($id);
 
 
 Route::get('/', function () {
